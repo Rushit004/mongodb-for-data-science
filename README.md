@@ -19,6 +19,26 @@
 
 ---
 
+## 📚 Quick Navigation — MongoDB Command Reference
+
+> 🔎 **Looking for MongoDB syntax, not the ML side?** Every command used in this project — CRUD ops, comparison/logical operators, indexing, aggregation — is documented with one-line explanations and screenshots in [`practice-data/commands/`](./practice-data/commands/).
+>
+> 👉 **[Browse the full Command Reference →](./practice-data/commands/)**
+
+| File | Covers |
+|---|---|
+| [`01-basic-commands.md`](./practice-data/commands/01-basic-commands.md) | Databases, collections, shell basics |
+| [`02-insertion.md`](./practice-data/commands/02-insertion.md) | `insertOne`, `insertMany` |
+| [`03-querying.md`](./practice-data/commands/03-querying.md) | `find`, projection, sort, limit |
+| [`04-updating.md`](./practice-data/commands/04-updating.md) | `updateOne`, `updateMany`, `$set`, `$unset` |
+| [`05-deleting.md`](./practice-data/commands/05-deleting.md) | `deleteOne`, `deleteMany` |
+| [`06-comparison-operators.md`](./practice-data/commands/06-comparison-operators.md) | `$gt`, `$lt`, `$in`, `$nin`, etc. |
+| [`07-logical-operators.md`](./practice-data/commands/07-logical-operators.md) | `$and`, `$or`, `$nor`, `$not` |
+| [`08-indexing.md`](./practice-data/commands/08-indexing.md) | `createIndex`, `explain`, `dropIndex` |
+| [`09-aggregation-pipeline.md`](./practice-data/commands/09-aggregation-pipeline.md) | `$match`, `$group`, `$sort` |
+
+---
+
 ## 📖 Project Overview
 
 This repo documents a short MongoDB course and applies it through two data pipelines instead of stopping at shell commands.
@@ -98,7 +118,19 @@ mongodb-for-data-science/
 │   
 │
 ├── practice-data/
-│   └── office-employees.csv
+│   ├── office-employees.csv
+│   ├── commands/
+│   │   ├── 01-basic-commands.md
+│   │   ├── 02-insertion.md
+│   │   ├── 03-querying.md
+│   │   ├── 04-updating.md
+│   │   ├── 05-deleting.md
+│   │   ├── 06-comparison-operators.md
+│   │   ├── 07-logical-operators.md
+│   │   ├── 08-indexing.md
+│   │   ├── 09-aggregation-pipeline.md
+│   │   └── screenshots/
+│   └── README.md
 │
 └── README.md
 ```
