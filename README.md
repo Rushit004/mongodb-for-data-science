@@ -21,21 +21,21 @@
 
 ## 📚 Quick Navigation — MongoDB Command Reference
 
-> 🔎 **Looking for MongoDB syntax, not the ML side?** Every command used in this project — CRUD ops, comparison/logical operators, indexing, aggregation — is documented with one-line explanations and screenshots in [`practice-data/commands/`](./practice-data/commands/).
+> 🔎 **Looking for MongoDB syntax, not the ML side?** Every command used in this project — CRUD ops, comparison/logical operators, indexing, aggregation — is documented with one-line explanations and screenshots in [`practice-data/commands/`](practice_data/commands).
 >
-> 👉 **[Browse the full Command Reference →](./practice-data/commands/)**
+> 👉 **[Browse the full Command Reference →](practice_data/commands)**
 
 | File | Covers |
 |---|---|
-| [`01-basic-commands.md`](./practice-data/commands/01-basic-commands.md) | Databases, collections, shell basics |
-| [`02-insertion.md`](./practice-data/commands/02-insertion.md) | `insertOne`, `insertMany` |
-| [`03-querying.md`](./practice-data/commands/03-querying.md) | `find`, projection, sort, limit |
-| [`04-updating.md`](./practice-data/commands/04-updating.md) | `updateOne`, `updateMany`, `$set`, `$unset` |
-| [`05-deleting.md`](./practice-data/commands/05-deleting.md) | `deleteOne`, `deleteMany` |
-| [`06-comparison-operators.md`](./practice-data/commands/06-comparison-operators.md) | `$gt`, `$lt`, `$in`, `$nin`, etc. |
-| [`07-logical-operators.md`](./practice-data/commands/07-logical-operators.md) | `$and`, `$or`, `$nor`, `$not` |
-| [`08-indexing.md`](./practice-data/commands/08-indexing.md) | `createIndex`, `explain`, `dropIndex` |
-| [`09-aggregation-pipeline.md`](./practice-data/commands/09-aggregation-pipeline.md) | `$match`, `$group`, `$sort` |
+| [`01-basic-commands.md`](practice_data/commands/01-basic-commands.md) | Databases, collections, shell basics |
+| [`02-insertion.md`](practice_data/commands/02-insertion.md) | `insertOne`, `insertMany` |
+| [`03-querying.md`](practice_data/commands/03-querying.md) | `find`, projection, sort, limit |
+| [`04-updating.md`](practice_data/commands/04-updating.md) | `updateOne`, `updateMany`, `$set`, `$unset` |
+| [`05-deleting.md`](practice_data/commands/05-deleting.md) | `deleteOne`, `deleteMany` |
+| [`06-comparison-operators.md`](practice_data/commands/06-comparison-operators.md) | `$gt`, `$lt`, `$in`, `$nin`, etc. |
+| [`07-logical-operators.md`](practice_data/commands/07-logical-operators.md) | `$and`, `$or`, `$nor`, `$not` |
+| [`08-indexing.md`](practice_data/commands/08-indexing.md) | `createIndex`, `explain`, `dropIndex` |
+| [`09-aggregation-pipeline.md`](practice_data/commands/09-aggregation-pipeline.md) | `$match`, `$group`, `$sort` |
 
 ---
 
@@ -117,7 +117,7 @@ mongodb-for-data-science/
 │     └── model_comparison.png
 │   
 │
-├── practice-data/
+├── practice_data/
 │   ├── office-employees.csv
 │   ├── commands/
 │   │   ├── 01-basic-commands.md
